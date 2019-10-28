@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/own"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/user" />
+
+    <EditText
+        android:id="@+id/username1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="320dp"
+        android:hint="账号"
+        android:background="#F8F8FF"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
+        android:hint="密码"
+        android:background="#F8F8FF"
+        android:inputType="textPassword"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/denglu1"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="80dp"
+        android:background="#87CEFA"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/zhuce"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="250dp"
+        android:text="注册" />
+
+    <TextView
+        android:id="@+id/hint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#8B008B" />
+
+</RelativeLayout>

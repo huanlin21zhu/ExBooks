@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/itemTitle2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/itemDetail2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="订阅"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="10sp" />
+
+</LinearLayout>

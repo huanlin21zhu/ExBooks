@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    tools:context=".ChangeActivity">
+
+    <!-- 账号 -->
+    <TextView
+        android:id="@+id/you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="账号："
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/younumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF"
+        android:textColor="#8B008B"
+        android:textSize="25sp"/>
+
+    <!-- 姓名 -->
+    <TextView
+        android:id="@+id/you1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/youstu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <!-- 学院 -->
+    <TextView
+        android:id="@+id/you2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="学院："
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/cge"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <!-- 专业 -->
+    <TextView
+        android:id="@+id/you3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="专业："
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/dept"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8F8FF"
+        android:textSize="20sp"
+        android:inputType="text"
+        android:singleLine="true" />
+
+    <!-- 确定按钮 -->
+    <Button
+        android:id="@+id/change_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认修改" />
+
+</LinearLayout>
